@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Denis Balan](https://up.htmlacademy.ru/htmlcss/27/user/1213615).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Зубков](https://htmlacademy.ru/profile/id1323377).
 
 ---
 
