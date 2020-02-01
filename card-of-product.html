@@ -61,53 +61,85 @@
       <p>Перфераторы</p>
     </div>
 
+    <div>
+      <ul>
+        <li>Сортировка:</li>
+        <li class="red">По цене</li>
+        <li>По типу</li>
+        <li>По функционалу</li>
+        <li><a href=""><img src="#" alt="Стрелка вверх"></a></li>
+        <li><a href=""><img src="#" alt="Стрелка вниз"></a></li>
+      </ul>
+    </div>
+
     <aside class="left">
-      <div>
-        <p>Фильтры:</p>
+      <p>Фильтры:</p>
+
+      <div class="slidecontainer">
+        <input type="range" min="0" max="30000" value="25500" class="slider" id="myRange">
+      </div>
+      <div class="min">
+        0
+      </div>
+      <div class="max">
+        30000
       </div>
 
-      <div>
-        <ul>
-          <li>Сортировка:</li>
-          <li class="red">По цене</li>
-          <li>По типу</li>
-          <li>По функционалу</li>
-          <li><a href=""><img src="#" alt="Стрелка вверх"></a></li>
-          <li><a href=""><img src="#" alt="Стрелка вниз"></a></li>
-        </ul>
-      </div>
-
-      <div>
-        <p>Цена:</p>
-        <div class="filter"></div>
-        <div class="price-0"></div>
-        <div class="price-n"></div>
-      </div>
-
-      <div>
+     <form action="" method="POST" class="checkbox">
         <p>Производители:</p>
-        <ul>
-          <li>BOSCH</li>
-          <li>Интерскол</li>
-          <li>Makita</li>
-          <li>DeWALT</li>
-          <li>Hitachi</li>
-        </ul>
-      </div>
+          <ul>
+            <li>
+              <input type="checkbox" name="Bosch" id="Bosch" checked>
+              <label for="Bosch">
+                Bosch
+              </label>
+            </li>
+            <li>
+              <input type="checkbox" name="Interscol" id="Interscol">
+              <label for="Interscol">
+                Интерскол
+              </label>
+            </li>
+            <li>
+              <input type="checkbox" name="Makita" id="Makita" checked>
+              <label for="Makita">
+                Makita
+              </label>
+            </li>
+            <li>
+              <input type="checkbox" name="DeWALT" id="DeWALT">
+              <label for="DeWALT">
+                DeWALT
+              </label>
+            </li>
+            <li>
+              <input type="checkbox" name="Hitachi" id="Hitachi">
+              <label for="Hitachi">
+                Hitachi
+              </label>
+            </li>
+          </ul>
+     </form>
 
-      <div>
+      <form action="">
         <p>Питание:</p>
-        <label>
-          <input type="radio" name="question-one" value="battery" checked>
-          Аккумуляторные
-        </label>
-        <label>
-          <input type="radio" name="question-two" value="power-supply">
-          Сетевые
-        </label>
-      </div>
+          <ul>
+            <li>
+              <input type="radio" name="question" value="battery" id="rechargeable">
+              <label for="rechargeable">
+                Аккумуляторные
+              </label>
+            </li>
+            <li>
+              <input type="radio" name="question" value="power-supply" id="sockets">
+              <label>
+                Сетевые
+              </label>
+            </li>
+          </ul>
+      </form>
 
-      <a href="#">Показать</a>
+      <button type="submit">Показать</button>
     </aside>
 
 
@@ -177,13 +209,11 @@
       </div>
     </section>
 
-    <div>
       <p>
         Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
         Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.<br>
         В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
       </p>
-    </div>
 
     <div>
       <ul>
