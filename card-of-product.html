@@ -10,6 +10,16 @@
 </head>
 
 <body>
+  <div class="wrap-modal">
+    <div class="visually-hidden">
+      <span class="close-modal">&times;</span>
+      <p class="chekin"><img src="" alt="">Товар добавлен в корзину</p>
+       <div>
+        <a href="" class="checkout">Оформить заказ</a>
+        <a class="continue-shopping">Продолжить покупки</a>
+      </div>
+    </div>
+  </div>
   <header>
     <section class="header-top">
       <nav>
@@ -35,11 +45,11 @@
         <a href="tel:+78125550555">+7 (812) 555-05-55</a>
         <img src="../1213615-technomart-27/img/icons/tel.svg" alt="Иконка телефона">
       </div>
-      <div class="login">
+      <a class="login">
         <img src="../1213615-technomart-27/img/icons/user.svg" alt="Иконка пользователя">
         <p>Равшан Джамшутович</p>
         <img src="../1213615-technomart-27/img/icons/login.svg" alt="Иконка входа в личный кабинет">
-      </div>
+      </a>
       <ul>
         <li><a href="#">Мои заказы</a></li>
         <li><a href="#">Личный кабинет</a></li>
@@ -90,11 +100,10 @@
       <div class="slide-container">
         <input type="range" min="0" max="30000" value="25500" class="slider" id="myRange">
       </div>
-      <div class="min">
-        0
-      </div>
-      <div class="max">
-        30000
+      <div class="range-vals">
+        <input type="number" value="0" >
+        <span>-</span>
+        <input type="number" value="3000">
       </div>
 
      <form action="" method="post" class="checkbox">
@@ -177,13 +186,7 @@
         <a href="#">В закладки</a>
         <div>Перфоратор BOSCH BFG 2000</div>
         <button type="button">12 500</button>
-          <div class="visually-hidden">
-            <p>Товар добавлен в корзину</p>
-             <div>
-              <p class="checkout">Оформить заказ</p>
-              <p class="continue-shopping">Продолжить покупки</p>
-            </div>
-          </div>
+
       </div>
 
       <div class="product-4">
@@ -285,7 +288,7 @@
 
         <p class="feedback">
           Обратная связь:<br>
-          <a href="contacts.html">mail@htmlacademy.ru</a>
+          <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
         </p>
 
         <p class="powered">
