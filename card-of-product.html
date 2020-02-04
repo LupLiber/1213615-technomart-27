@@ -18,9 +18,9 @@
         </a>
         <a href="#" class="search">Поиск</a>
         <img src="../1213615-technomart-27/img/icons/search.svg" alt="Иконка поиска">
-        <a href="#" class="bookmarks">Закладки</a>
+        <a href="#" class="bookmarks">Закладки:0</a>
         <img src="../1213615-technomart-27/img/icons/bookmarks.svg" alt="Иконка закладки">
-        <a href="#" class="basket">Корзина</a>
+        <a href="#" class="basket">Корзина:10</a>
         <img src="../1213615-technomart-27/img/icons/basket.svg" alt="Иконка корзина">
         <a href="#" class="order">Оформить заказ</a>
       </nav>
@@ -31,10 +31,21 @@
           строительных материалов<br>
           и инструментов для ремонта
       </p>
-      <a href="tel:+78125550555">+7 (812) 555-05-55</a>
-      <a href="#">Войти</a>
-      <a href="#">Регистрация</a>
+      <div class="tel">
+        <a href="tel:+78125550555">+7 (812) 555-05-55</a>
+        <img src="../1213615-technomart-27/img/icons/tel.svg" alt="Иконка телефона">
+      </div>
+      <div class="login">
+        <img src="../1213615-technomart-27/img/icons/user.svg" alt="Иконка пользователя">
+        <p>Равшан Джамшутович</p>
+        <img src="../1213615-technomart-27/img/icons/login.svg" alt="Иконка входа в личный кабинет">
+      </div>
+      <ul>
+        <li><a href="#">Мои заказы</a></li>
+        <li><a href="#">Личный кабинет</a></li>
+      </ul>
 
+     <nav class="menu">
       <ul>
         <li><a href="index.html">Главная</a></li>
         <li><a href="about.html">Компания</a></li>
@@ -44,6 +55,7 @@
         <li><a href="delivery.html">Доставка</a></li>
         <li><a href="contacts.html">Контакты</a></li>
       </ul>
+     </nav>
     </section>
   </header>
 
@@ -67,15 +79,15 @@
         <li class="red">По цене</li>
         <li>По типу</li>
         <li>По функционалу</li>
-        <li><a href=""><img src="#" alt="Стрелка вверх"></a></li>
-        <li><a href=""><img src="#" alt="Стрелка вниз"></a></li>
+        <li><a href=""><img src="../1213615-technomart-27/img/icons/arrow-up.svg" alt="Стрелка вверх"></a></li>
+        <li><a href=""><img src="../1213615-technomart-27/img/icons/arrow-down.svg" alt="Стрелка вниз"></a></li>
       </ul>
     </div>
 
     <aside class="left">
       <p>Фильтры:</p>
 
-      <div class="slidecontainer">
+      <div class="slide-container">
         <input type="range" min="0" max="30000" value="25500" class="slider" id="myRange">
       </div>
       <div class="min">
@@ -85,7 +97,7 @@
         30000
       </div>
 
-     <form action="" method="POST" class="checkbox">
+     <form action="" method="post" class="checkbox">
         <p>Производители:</p>
           <ul>
             <li>
@@ -161,9 +173,17 @@
       <div class="product-3">
         <span class="new">New</span>
         <a href="#">Купить</a>
+        <img src="../1213615-technomart-27/img/icons/backet.svg" alt="Иконка корзина">
         <a href="#">В закладки</a>
         <div>Перфоратор BOSCH BFG 2000</div>
         <button type="button">12 500</button>
+          <div class="visually-hidden">
+            <p>Товар добавлен в корзину</p>
+             <div>
+              <p class="checkout">Оформить заказ</p>
+              <p class="continue-shopping">Продолжить покупки</p>
+            </div>
+          </div>
       </div>
 
       <div class="product-4">
@@ -265,7 +285,7 @@
 
         <p class="feedback">
           Обратная связь:<br>
-          mail@htmlacademy.ru
+          <a href="contacts.html">mail@htmlacademy.ru</a>
         </p>
 
         <p class="powered">
