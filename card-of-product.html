@@ -12,63 +12,80 @@
 </head>
 
 <body>
-  <div class="wrap-modal">
-    <div class="visually-hidden">
-      <span class="close-modal">&times;</span>
-      <p class="chekin"><img src="" alt="">Товар добавлен в корзину</p>
-       <div>
-        <a href="" class="checkout">Оформить заказ</a>
-        <a class="continue-shopping">Продолжить покупки</a>
-      </div>
-    </div>
-  </div>
   <header>
     <div class="header-top">
       <nav>
-        <a href="">
-          <div class="logo">Техномарт</div>
-        </a>
-        <a href="" class="search">Поиск</a>
-        <img src="" alt="Иконка поиска">
-        <a href="" class="bookmarks">Закладки:0</a>
-        <img src="../1213615-technomart-27/img/icons/bookmarks.svg" alt="Иконка закладки">
-        <a href="" class="basket">Корзина:10</a>
-        <img src="../1213615-technomart-27/img/icons/basket.svg" alt="Иконка корзина">
+        <div class="logo">
+          <a href="">
+            <img src="img/images/logo-tehnomart.webp" alt="лого Техномарт">
+          </a>
+        </div>
+
+        <div class="search">
+          <form action="" method="POST">
+            <img src="img/icons/search.svg" alt="Иконка поиска"> <!-- иконку тут оставить или лучшее ее убрать и сделать через css? -->
+            <input type="text" name="search" placeholder="Поиск:">
+            <input type="submit" value="">
+          </form>
+        </div>
+
+        <a href="" class="bookmarks"><img src="img/icons/bookmarks.svg" alt="Иконка закладки">Закладки:<span>0</span></a>
+
+        <a href="" class="basket"><img src="img/icons/basket.svg" alt="Иконка корзина">Корзина:<span>0</span></a>
+
         <a href="" class="order">Оформить заказ</a>
       </nav>
     </div>
 
     <div class="header-bottom">
-      <p>Интернет-магазин<br>
-          строительных материалов<br>
-          и инструментов для ремонта
+      <p class="slogan">Интернет-магазин
+        строительных материалов
+        и инструментов для ремонта
       </p>
-      <div class="tel">
-        <a href="tel:+78125550555">+7 (812) 555-05-55</a>
-        <img src="../1213615-technomart-27/img/icons/tel.svg" alt="Иконка телефона">
-      </div>
-      <a class="login">
-        <img src="../1213615-technomart-27/img/icons/user.svg" alt="Иконка пользователя">
-        <p>Равшан Джамшутович</p>
-        <img src="../1213615-technomart-27/img/icons/login.svg" alt="Иконка входа в личный кабинет">
-      </a>
-      <ul>
-        <li><a href="#">Мои заказы</a></li>
-        <li><a href="#">Личный кабинет</a></li>
-      </ul>
 
-     <nav class="menu">
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="about.html">Компания</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="news.html">Новости</a></li>
-        <li><a href="offers.html">Спецпредложения</a></li>
-        <li><a href="delivery.html">Доставка</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-      </ul>
-     </nav>
+      <div class="tel-adress">
+        <div class="telefon">
+          <a class="tel-number" href="tel:+78125550555">
+            <img src="img/icons/tel.svg">
+            +7 (812) 555-05-55
+          </a>
+        </div>
+        <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      </div>
+
+      <div class="enter-reg">
+
+        <a class="login">
+          <img src="../1213615-technomart-27/img/icons/user.svg" alt="Иконка пользователя">
+          <p>Равшан Джамшутович</p>
+          <img src="../1213615-technomart-27/img/icons/login.svg" alt="Иконка входа в личный кабинет">
+        </a>
+        <ul>
+          <li><a href="#">Мои заказы</a></li>
+          <li><a href="#">Личный кабинет</a></li>
+        </ul>
+
     </div>
+
+      <div class="menu">
+        <nav>
+          <ul>
+            <li class="main-menu"><a href="index.html">Главная</a></li>
+            <li class="main-menu"><a href="about.html">Компания</a></li>
+            <li class="main-menu"><a href="catalog.html">Каталог</a></li>
+            <li class="main-menu"><a href="news.html">Новости</a></li>
+            <li class="main-menu"><a href="offers.html">Спецпредложения</a></li>
+            <li class="main-menu"><a href="delivery.html">Доставка</a></li>
+            <li class="main-menu"><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+
+
   </header>
 
   <main>

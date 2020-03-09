@@ -2,19 +2,24 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Cuprum", PT Sans, sans-serif;
-  font-size: 16px;
-  line-height: 23px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
   font-weight: 400;
+  line-height: 24px;
 
-  background-color: rgba(0, 0, 0, 0);
+
 }
 
 a {
   text-decoration: none;
 }
 
+.header {
+  background-color: #f3f7f8;
+}
+
 .header-top {
+  display: flex;
   font-size: 17px;
   font-weight: 400;
   line-height: 18px;
@@ -40,7 +45,7 @@ a {
 
 .search{
   width: 71px;
-  height: 18px;
+
   color: #ffffff;
   font-family: Cuprum;
   font-size: 17px;
@@ -58,7 +63,7 @@ a {
   line-height: 18px;
 }
 
-.backet {
+.basket {
   width: 99px;
   height: 18px;
   color: #ffffff;
@@ -80,9 +85,8 @@ a {
 }
 
 .slogan {
-  display: inline-flex;
+  font-style: italic;
   width: 226px;
-  height: 69px;
   color: #ee3643;
 }
 
@@ -125,7 +129,9 @@ a {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.enter-item {
+.enter-link {
+  display: block;
+  padding: 12px 20px;
   width: 76px;
   height: 21px;
   color: #000000;
@@ -133,6 +139,7 @@ a {
   font-size: 21px;
   font-weight: 400;
   line-height: 21px;
+  background-color: #fff;
 }
 
 .registration {
@@ -168,14 +175,14 @@ a {
   width: 91px;
 }
 
-ul .main-menu {
+li .main-menu {
   width: 91px;
-height: 17px;
-color: #ffffff;
-font-family: Cuprum;
-font-size: 17px;
-font-weight: 400;
-line-height: 17px;
+  height: 17px;
+  color: #ffffff;
+  font-family: Cuprum;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 17px;
 }
 
 .company-contacts {
