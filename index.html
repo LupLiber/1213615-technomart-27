@@ -14,28 +14,26 @@
     ================================================================= -->
     <header class="header">
       <div class="header-top">
-        <nav>
-          <div class="logo">
-            <a href="">
-              <img src="img/images/logo-tehnomart.webp" alt="лого Техномарт">
-            </a>
-          </div>
+        <div class="header-top-inner">
+          <a class="logo" href="">
+            <img src="img/images/logo-tehnomart.webp" alt="лого Техномарт">
+          </a>
 
           <div class="search">
             <form action="" method="POST">
-               <!-- иконку тут оставить или лучшее ее убрать и сделать через css? -->
               <input type="text" name="search" placeholder="Поиск:">
-              <button type="submit" value=""><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><g><g opacity=".3"><path fill="currentColor" d="M2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5zm15 8.086l-3.542-3.542C14.458 10.74 15 9.144 15 7.5A7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17z"/></g></g></svg>
+              <button type="submit" class="search-button">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><g><g opacity=".3"><path fill="currentColor" d="M2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5zm15 8.086l-3.542-3.542C14.458 10.74 15 9.144 15 7.5A7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17z"/></g></g></svg>
               </button>
             </form>
           </div>
 
-          <a href="" class="bookmarks"><img src="img/icons/bookmarks.svg" alt="Иконка закладки">Закладки:<span>0</span></a>
+          <a href="" class="bookmarks">Закладки:<span>0</span></a>
 
           <a href="" class="basket"><img src="img/icons/basket.svg" alt="Иконка корзина">Корзина:<span>0</span></a>
 
           <a href="" class="order">Оформить заказ</a>
-        </nav>
+        </div>
       </div>
 
       <div class="header-bottom">
@@ -45,12 +43,10 @@
         </p>
 
         <div class="tel-adress">
-          <div class="telefon">
-            <a class="tel-number" href="tel:+78125550555">
-              <img src="img/icons/tel.svg">
-              +7 (812) 555-05-55
-            </a>
-          </div>
+          <a class="tel-number" href="tel:+78125550555">
+            <img src="img/icons/tel.svg">
+            +7 (812) 555-05-55
+          </a>
           <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </div>
 
@@ -61,9 +57,7 @@
               Войти
             </a>
           </div>
-          <div class="registration">
-            <a  class="enter-link" href="">Регистрация</a>
-          </div>
+          <a href="">Регистрация</a>
         </div>
       </div>
 
@@ -92,7 +86,6 @@
         <div class="item materials">
           <p class="mateials">Материалы</p>
           <img src="img/icons/bucketful.svg" alt="Ведро с краской">
-          <span class="new">New</span>
           <a href=""><p class="every-taste">На любой вкус</p></a>
         </div>
 
@@ -165,7 +158,7 @@
             <li>
               <div class="product-1">
                 <img src="img/images/snippet-18927.png" alt="Перфератор Bosch" width="184" height="164">
-                <p>Перфоратор BOSCH BFG 9000</p>
+                <h3>Перфоратор BOSCH BFG 9000</h3>
                 <div class="price_underlined">32 500Р</div>
                 <button type="button">25 500</button>
               </div>
@@ -174,7 +167,7 @@
             <li>
               <div class="product-2">
                 <img src="img/images/snippet-32961.png" alt="Перфератор Bosch" width="127" height="112">
-                <p>Перфоратор BOSCH BFG 3000</p>
+                <h3>Перфоратор BOSCH BFG 3000</h3>
                 <div class="price_underlined">22 500Р</div>
                 <button type="button">15 500</button>
               </div>
@@ -183,7 +176,7 @@
             <li>
               <div class="product-3">
                 <img src="img/images/snippet-945-b.png" alt="Перфератор Bosch" width="144" height="128">
-                <p>Перфоратор BOSCH BFG 6000</p>
+                <h3>Перфоратор BOSCH BFG 6000</h3>
                 <div class="price_underlined">30 500Р</div>
                 <button type="button">25 500</button>
               </div>
@@ -192,9 +185,8 @@
             <li>
               <div class="product-4">
                 <img src="img/images/snippet-18927.png" alt="Перфератор Bosch" width="127"  height="112">
-                <p>Перфоратор BOSCH BFG 2000</p>
+                <h3>Перфоратор BOSCH BFG 2000</h3>
                 <div class="prop"></div>
-                <span class="new">New</span>
                 <button type="button">12 500</button>
               </div>
             </li>
@@ -209,14 +201,14 @@
         </div>
 
         <ul class="brands">
-          <li><img src="img/images/bosch.png" alt="BOSCH" width="126" height="37"></li>
-          <li><img src="img/images/Makita.png" alt="Makita" width="123" height="40"></li>
-          <li><img src="img/images/DeWALT.png" alt="DeWALT" width="146" height="44"></li>
-          <li><img src="img/images/Интерскол.png" alt="ИНТЕРСКОЛ" width="200" height="88"></li>
-          <li><img src="img/images/Hitachi.png" alt="HITACHI" width="169" height="31"></li>
-          <li><img src="img/images/LG.png" alt="LG" width="121" height="73"></li>
-          <li><img src="img/images/AEG.png" alt="AEG" width="151" height="96"></li>
-          <li><img src="img/images/Metabo.png" alt="Metabo" width="204" height="69"></li>
+          <a href=""><li><img src="img/images/bosch.png" alt="BOSCH" width="126" height="37"></li></a>
+          <a href=""> <li><img src="img/images/Makita.png" alt="Makita" width="123" height="40"></li></a>
+          <a href=""><li><img src="img/images/DeWALT.png" alt="DeWALT" width="146" height="44"></li></a>
+          <a href=""><li><img src="img/images/Интерскол.png" alt="ИНТЕРСКОЛ" width="200" height="88"></li></a>
+          <a href=""><li><img src="img/images/Hitachi.png" alt="HITACHI" width="169" height="31"></li></a>
+          <a href=""><li><img src="img/images/LG.png" alt="LG" width="121" height="73"></li></a>
+          <a href=""><li><img src="img/images/AEG.png" alt="AEG" width="151" height="96"></li></a>
+          <a href=""><li><img src="img/images/Metabo.png" alt="Metabo" width="204" height="69"></li></a>
         </ul>
       </section>
 
